@@ -1,0 +1,15 @@
+################################
+python
+################################
+
+- set up venv
+pip install pipenv
+mkdir your-dir
+cd your-dir
+pipenv --python python3
+
+pipenv shell (turn on virtual environment)
+pipenv install || pipenv install -r requirements.txt (install project dependencies) 
+pipenv update (update packages)
+pipenv install your-package
+pip freeze (see installed dependencies)
