@@ -13,3 +13,10 @@ pipenv install || pipenv install -r requirements.txt (install project dependenci
 pipenv update (update packages)
 pipenv install your-package
 pip freeze (see installed dependencies)
+
+################################
+Linux
+################################
+
+- temporarily resize tmp
+sudo mount -o remount,size=8G,noatime /tmp;
