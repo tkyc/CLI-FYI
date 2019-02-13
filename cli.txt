@@ -18,5 +18,21 @@ pip freeze (see installed dependencies)
 Linux
 ################################
 
-- temporarily resize tmp
+- temporarily resize tmp to 8 gigs
 sudo mount -o remount,size=8G,noatime /tmp;
+
+################################
+React
+################################
+- use live-server to run proj & listent to changes
+live-server folder-containing-proj-files
+
+- initialize project
+yarn init
+
+- add babel dependencies
+yarn add babel-preset-react babel-preset-env
+
+- start babel and listens for changes (read jsx in src/app.js and write to output file in public/scripts/app.js) 
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
