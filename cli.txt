@@ -36,3 +36,21 @@ yarn add babel-preset-react babel-preset-env
 - start babel and listens for changes (read jsx in src/app.js and write to output file in public/scripts/app.js) 
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 
+
+################################
+React-Native
+################################
+- Using expo-cli to init project
+expo init project-name
+
+- Using expo to launch project
+expo start
+
+- Convert expo project to classic React-Native project with Android/iOS native files
+expo eject
+
+- View Android logs
+react-native log-android
+
+- Run project on android (Must launch project first with npm start)
+react-native run-android
