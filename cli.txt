@@ -6,7 +6,7 @@ python
 pip install pipenv
 mkdir your-dir
 cd your-dir
-pipenv --python python3
+pipenv --python python3 || pipenv install (uses default python version)
 
 pipenv shell (turn on virtual environment)
 pipenv install || pipenv install -r requirements.txt (install project dependencies) 
