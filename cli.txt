@@ -27,6 +27,7 @@ setup(name='myproject', version='1.0', packages=find_packages())
 python setup.py bdist_egg
 
 - use kivy for gui
+- #include <python3.7m/Python.h> for extending python using C 
 
 ################################
 Linux
