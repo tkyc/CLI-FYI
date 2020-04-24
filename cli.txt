@@ -42,6 +42,10 @@ Linux
 - temporarily resize tmp to 8 gigs
 sudo mount -o remount,size=8G,noatime /tmp;
 
+- text extraction
+awk 'FNR == <row> {print $<col>}'
+awk '/<regex>/'
+
 
 ################################
 React
