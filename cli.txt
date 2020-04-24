@@ -46,6 +46,9 @@ sudo mount -o remount,size=8G,noatime /tmp;
 awk 'FNR == <row> {print $<col>}'
 awk '/<regex>/'
 
+- system info
+hostnamectl
+
 
 ################################
 React
