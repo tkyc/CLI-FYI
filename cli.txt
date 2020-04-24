@@ -4,10 +4,10 @@ Misc.
 - css filter to set dark mode for pdfs on firefox
 viewer.style = 'filter: grayscale(1) invert(1) sepia(1)'
 
+
 ################################
 python
 ################################
-
 - set up venv
 pip install pipenv
 mkdir your-dir
@@ -35,12 +35,13 @@ python setup.py bdist_egg
 - use kivy for gui
 - #include <python3.7m/Python.h> for extending python using C 
 
+
 ################################
 Linux
 ################################
-
 - temporarily resize tmp to 8 gigs
 sudo mount -o remount,size=8G,noatime /tmp;
+
 
 ################################
 React
@@ -75,3 +76,14 @@ react-native log-android
 
 - Run project on android (Must launch project first with npm start)
 react-native run-android
+
+
+################################
+Dotnet Core
+################################
+- Restore/install project dependencies (not necessary to run b/c it is implicitly ran on build)
+dotnet restore
+
+- Start project in output directory
+dotnet new <template> -o <directoyr>
+
