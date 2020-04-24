@@ -87,3 +87,11 @@ dotnet restore
 - Start project in output directory
 dotnet new <template> -o <directoyr>
 
+
+################################
+Rust
+################################
+cargo new <proj>
+cargo build
+cargo run
+cargo test
