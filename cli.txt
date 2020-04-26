@@ -102,3 +102,9 @@ cargo new <proj>
 cargo build
 cargo run
 cargo test
+
+
+################################
+AUR
+################################
+makepkg -sirc
