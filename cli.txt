@@ -94,6 +94,9 @@ dotnet restore
 - Start project in output directory
 dotnet new <template> -o <directoyr>
 
+- Build project
+dotnet build
+
 
 ################################
 Rust
