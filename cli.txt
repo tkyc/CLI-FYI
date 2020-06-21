@@ -102,9 +102,38 @@ dotnet build
 Rust
 ################################
 cargo new <proj>
+
 cargo build
+
+- Create executable for the compile target
+cargo build --release --target=<compile-target>
+
 cargo run
+
 cargo test
+
+- Lists compile targets
+rustup target list
+
+- Add compile target
+rustup target add <complie-target>
+
+rustup install stable
+
+rustup update
+
+
+################################
+Docker
+################################
+- Build image from Dockerfile
+docker build -t <repo>/<image-name>:<tab> -f Dockerfile .
+
+- Run image in background and interactively
+docker run -d -it <image-id>
+
+- Use the container's shell
+docker exec -it <container-id> /bin/bash
 
 
 ################################
