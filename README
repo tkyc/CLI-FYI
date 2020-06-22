@@ -134,13 +134,19 @@ docker build -t <image-name> .
 - Run image in background and interactively
 docker run -d -it <image-id>
 
-docer run -d -it <image-id> /bin/bash
+docker run -d -it <image-id> /bin/bash
 
 - Use the container's shell
 docker exec -it <container-id> /bin/bash
+
+docker stop <container-id>
+
+- Restart a stopped container
+docker start <container-id>
 
 
 ################################
 AUR
 ################################
 makepkg -sirc
+
