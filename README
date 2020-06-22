@@ -127,12 +127,14 @@ rustup update
 Docker
 ################################
 - Build image from Dockerfile
-docker build -t <repo>/<image-name>:<tag> -f Dockerfile .
+docker build -t <repo>/<image-name>:<tag> .
 
 docker build -t <image-name> .
 
 - Run image in background and interactively
 docker run -d -it <image-id>
+
+docer run -d -it <image-id> /bin/bash
 
 - Use the container's shell
 docker exec -it <container-id> /bin/bash
